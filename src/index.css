@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+}
+
+#html {
+  animation: html 1s 1s linear forwards;
+}
+#css {
+  animation: css 1s 1s linear forwards;
+}
+#js {
+  animation: js 1s 1s linear forwards;
+}
+#ts {
+  animation: ts 1s 1s linear forwards;
+}
+#react {
+  animation: react 1s 1s linear forwards;
+}
+#tailwind {
+  animation: tailwind 1s 1s linear forwards;
+}
+#figma {
+  animation: figma 1s 1s linear forwards;
+}
+
+@keyframes html {
+  100% {
+    stroke-dasharray: 40 100;
+  }
+}
+@keyframes css {
+  100% {
+    stroke-dasharray: 40 100;
+  }
+}
+@keyframes js {
+  100% {
+    stroke-dasharray: 40 100;
+  }
+}
+@keyframes ts {
+  100% {
+    stroke-dasharray: 30 100;
+  }
+}
+@keyframes react {
+  100% {
+    stroke-dasharray: 35 100;
+  }
+}
+@keyframes tailwind {
+  100% {
+    stroke-dasharray: 40 100;
+  }
+}
+@keyframes figma {
+  100% {
+    stroke-dasharray: 25 100;
+  }
+}
