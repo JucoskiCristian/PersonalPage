@@ -13,6 +13,7 @@ export function Progressbar({ rate, name, id }: ProgressbarProps) {
     delay: 200,
     config: { mass: 1, tension: 20, friction: 10 }
   })
+
   return (
     <div className="relative size-40">
       <svg

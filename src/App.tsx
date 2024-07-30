@@ -1,11 +1,12 @@
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react'
 import { Progressbar } from './components/progressbar'
+import { Card } from './components/card'
 
 export function App() {
   return (
-    <main className="flex max-w-screen-xl flex-col justify-center space-y-20 py-20 md:mx-auto">
+    <main className="flex max-w-screen-xl flex-col justify-center space-y-20 px-6 py-20 md:mx-auto">
       <div className="flex flex-1 flex-wrap-reverse justify-center md:justify-between">
-        <div className="md::mt-0 mt-6 flex flex-col flex-wrap space-y-8">
+        <div className="mt-6 flex flex-col flex-wrap space-y-8 md:mt-0">
           <p className="text-5xl">
             Hi,I<strong className="text-teal-300">'</strong>m
           </p>
@@ -43,14 +44,14 @@ export function App() {
           <div className="h-80 w-80 rounded-full bg-teal-600 bg-pattern bg-contain bg-center bg-no-repeat"></div>
         </div>
       </div>
-      <div className="flex flex-col justify-center space-y-6 text-center">
+      <div className="flex flex-col justify-center space-y-8 text-center">
         <h1 className="text-5xl">About me</h1>
         <p className="mx-auto w-[500px] text-zinc-400">
           I'm a front-end developer passionate about creating beautiful and
           interactive interfaces that deliver great user experiences.
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center space-y-6">
+      <div className="flex flex-col items-center justify-center space-y-8">
         <h1 className="text-5xl">Skills</h1>
         <div className="flex flex-wrap gap-4">
           <Progressbar name="Html5" rate={80} id="html" />
@@ -60,6 +61,26 @@ export function App() {
           <Progressbar name="ReactJs" rate={70} id="react" />
           <Progressbar name="TailwindCSS" rate={80} id="tailwind" />
           <Progressbar name="Figma" rate={50} id="figma" />
+        </div>
+      </div>
+      <div className="flex flex-col items-center justify-center space-y-8">
+        <h1 className="text-5xl">Projects</h1>
+        <div className="flex flex-wrap items-center justify-center gap-8">
+          <Card
+            name="Project 1"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae nisl euismod, lobortis felis ac, maximus justo."
+            technology="React.ts , Tailwind.css"
+          />
+          <Card
+            name="Project 2"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae nisl euismod, lobortis felis ac, maximus justo."
+            technology="React.ts , Tailwind.css"
+          />
+          <Card
+            name="Project 3"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae nisl euismod, lobortis felis ac, maximus justo."
+            technology="React.ts , Tailwind.css"
+          />
         </div>
       </div>
     </main>
