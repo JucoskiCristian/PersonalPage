@@ -8,7 +8,10 @@ export default {
         sans: 'Inter'
       },
       backgroundImage: {
-        pattern: 'url(/CristianJucoski.png)'
+        pattern: 'url(/CristianJucoski.png)',
+        khapa: 'url(/spakhapa.png)',
+        tripplann: 'url(/tripplann.png)',
+        pokedex: 'url(/pokedex.png)'
       }
     }
   },

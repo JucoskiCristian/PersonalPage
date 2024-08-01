@@ -27,9 +27,9 @@ export function Progressbar({ rate, name, id }: ProgressbarProps) {
           r="16"
           fill="none"
           className="stroke-current text-gray-200 dark:text-neutral-700"
-          stroke-width="1"
-          stroke-dasharray="50 100"
-          stroke-linecap="round"></circle>
+          strokeWidth="1"
+          strokeDasharray="50 100"
+          strokeLinecap="round"></circle>
 
         <circle
           id={id}
@@ -38,9 +38,9 @@ export function Progressbar({ rate, name, id }: ProgressbarProps) {
           r="16"
           fill="none"
           className="stroke-current text-teal-300"
-          stroke-width="1.5"
-          stroke-dasharray="0 100"
-          stroke-linecap="round"></circle>
+          strokeWidth="1.5"
+          strokeDasharray="0 100"
+          strokeLinecap="round"></circle>
       </svg>
 
       <div className="absolute start-1/2 top-9 -translate-x-1/2 transform text-center">
