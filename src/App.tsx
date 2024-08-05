@@ -94,6 +94,30 @@ export function App() {
           />
         </div>
       </div>
+      <hr className="border-zinc-700" />
+      <div className="flex flex-col items-center justify-center space-y-6">
+        <div className="flex gap-6">
+          <a
+            target="_blanck"
+            href="https://github.com/JucoskiCristian"
+            className="flex h-14 w-14 items-center justify-center rounded-full text-teal-300 ring-2 ring-teal-300 hover:bg-teal-300 hover:text-zinc-900">
+            <Github />
+          </a>
+          <a
+            target="_blanck"
+            href="https://www.linkedin.com/in/cristian-jucoski/"
+            className="flex w-14 items-center justify-center rounded-full text-teal-300 ring-2 ring-teal-300 hover:bg-teal-300 hover:text-zinc-900">
+            <Linkedin />
+          </a>
+          <a
+            target="_blanck"
+            href="mailto:cristian.jucoski@gmail.com"
+            className="flex w-14 items-center justify-center rounded-full text-teal-300 ring-2 ring-teal-300 hover:bg-teal-300 hover:text-zinc-900">
+            <Mail />
+          </a>
+        </div>
+        <p className="text-zinc-400">Powered by Cristian Jucoski</p>
+      </div>
     </main>
   )
 }
