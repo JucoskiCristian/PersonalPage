@@ -9,7 +9,7 @@ export default {
       },
       backgroundImage: {
         pattern: 'url(/CristianJucoski.png)',
-        khapa: 'url(/spakhapa.png)',
+        marvel: 'url(/marvelpedia.png)',
         tripplann: 'url(/tripplann.png)',
         pokedex: 'url(/pokedex.png)'
       }
