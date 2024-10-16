@@ -86,11 +86,11 @@ export function App() {
             background="bg-pokedex"
           />
           <Card
-            name="Khapa Spa"
-            description="Website created for spa called Khapa, showcasing its services, qualities with a modern design."
-            technology="WordPress , Elementor"
-            link="https://github.com/JucoskiCristian/SpaKhapa"
-            background="bg-khapa"
+            name="Marvel Pedia"
+            description="An interactive and dynamic online catalog of Marvel heroes, utilizing the official Marvel Comics API."
+            technology="React.ts , Tailwind.css"
+            link="https://github.com/JucoskiCristian/marvelpedia"
+            background="bg-marvel"
           />
         </div>
       </div>
